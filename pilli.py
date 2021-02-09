@@ -19,28 +19,28 @@ class MyClient(discord.Client):
             await message.channel.send(':imseeing:'.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!frisbee'):
-            await message.channel.send('Woof woof, throw it, Imma jump and catch the frisbee '.format(message))
+        if message.content.startswith('!saji'):
+            await message.channel.send('What ra chettha fellow '.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!GooduDoge'):
-            await message.channel.send('*happy doge noises'.format(message))
+        if message.content.startswith('!imseeing'):
+            await message.channel.send('Eyes, I will pull it out'.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!wish'):
-            await message.channel.send('woof woof! How are you? {0.author.mention}'.format(message))
+        if message.content.startswith('!chettha pilli'):
+            await message.channel.send('s'.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!info'):
-            await message.channel.send('Hello, I am Doge, A discord bot made by NaziDoge using Python. I am made to serve your needs'.format(message))
+        if message.content.startswith('!goodu coffee'):
+            await message.channel.send('bery tasty ra it is'.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('you like cats?'):
-            await message.channel.send('Nah, I hate them '.format(message))
+        if message.content.startswith('!chettha oryon'):
+            await message.channel.send('I ple gheims '.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!aim'):
-            await message.channel.send('Hands up! You are surrounded '.format(message))
+        if message.content.startswith('!gib milk'):
+            await message.channel.send(' pilli wants milk aa ?'.format(message))
         if message.author.id == self.user.id:
             return
         if message.content.startswith('!realize'):
