@@ -11,12 +11,12 @@ class MyClient(discord.Client):
         # we do not want the bot to reply to itself
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!woof'):
-            await message.channel.send('Bow Bow'.format(message))
+        if message.content.startswith('!what do ra'):
+            await message.channel.send('I do pilli pilli'.format(message))
         if message.author.id == self.user.id:
             return
-        if message.content.startswith('!hello'):
-            await message.channel.send('Hello, I am Doge, a doge bot'.format(message))
+        if message.content.startswith('!likethismeanshowra'):
+            await message.channel.send(':imseeing:'.format(message))
         if message.author.id == self.user.id:
             return
         if message.content.startswith('!frisbee'):
@@ -45,10 +45,7 @@ class MyClient(discord.Client):
             return
         if message.content.startswith('!realize'):
             await message.channel.send('You left me alone aa?'.format(message))
-        if message.content.startswith('!what do ra'):
-            await message.startswith('I do pilli pilli'.format(message))
-         if message.content.starswith('!like this means how ra'):
-            await message.startswith(':imseeing:'):
+       
 
     client = MyClient()
     client.run('token')
