@@ -45,7 +45,10 @@ class MyClient(discord.Client):
             return
         if message.content.startswith('!realize'):
             await message.channel.send('You left me alone aa?'.format(message))
-       
+        if message.author.id == self.user.id:
+            return 
+        if message.content.startswith('!what do ra'):
+            await message.chanel.send('I do pilli pilli'.format(message))
 
     client = MyClient()
     client.run('token')
