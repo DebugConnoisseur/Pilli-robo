@@ -49,7 +49,10 @@ class MyClient(discord.Client):
             return 
         if message.content.startswith('!what do ra'):
             await message.chanel.send('I do pilli pilli'.format(message))
-
+        if message.author.id == self.user.id:
+            return
+        if message.content.startswith('!goodu pilli'):
+            await.message.channel.send('pilli should get milk'.format(message))
     client = MyClient()
     client.run('token')
         
