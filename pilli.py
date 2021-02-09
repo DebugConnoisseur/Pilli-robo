@@ -47,8 +47,10 @@ class MyClient(discord.Client):
             await message.channel.send('You left me alone aa?'.format(message))
         if message.content.startswith('!what do ra'):
             await message.startswith('I do pilli pilli'.format(message))
-            
-client = MyClient()
-client.run('token')
+         if message.content.starswith('!like this means how ra'):
+            await message.startswith(':imseeing:'):
+
+    client = MyClient()
+    client.run('token')
         
        
